@@ -29,6 +29,8 @@ export function ContactPage() {
     }))
   }
 
+  const addressLink = "https://www.google.com/maps?q=423+Mt+Edward+Rd,+Charlottetown,+PE+C1E+2A1,+Canada";
+
   return (
     <div className="contact-page">
       <h1>Contact Us</h1>
@@ -43,7 +45,13 @@ export function ContactPage() {
           </div>
           <div className="info-item">
             <h3>Location</h3>
-            <p>423 Mt Edward Rd, Charlottetown, PE C1E 2A1, Canada</p>
+            <a 
+              href="https://www.google.com/maps/search/?api=1&query=423+Mt+Edward+Rd+Charlottetown+PE+C1E+2A1+Canada"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              423 Mt Edward Rd, Charlottetown, PE C1E 2A1, Canada
+            </a>
           </div>
           <div className="info-item">
             <h3>Hours</h3>

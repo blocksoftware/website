@@ -53,6 +53,15 @@
   color: #5d6d7e;
 }
 
+.info-item a {
+  color: #5d6d7e;
+  text-decoration: none;
+}
+
+.info-item a:hover {
+  color: #2471a3;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
