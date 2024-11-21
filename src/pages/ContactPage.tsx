@@ -44,7 +44,7 @@ export function ContactPage() {
           <div className="info-item">
             <h3>Location</h3>
             <a 
-              href="https://www.google.com/maps/search/?api=1&query=423+Mt+Edward+Rd+Charlottetown+PE+C1E+2A1+Canada"
+              href="https://www.google.com/maps/place/Block+Software+Inc./@46.2800282,-63.1500548,17z/data=!3m1!4b1!4m6!3m5!1s0x4b5fb3639908eb8f:0x6abe6c93b86698eb!8m2!3d46.2800282!4d-63.1474799!16s%2Fg%2F11wmqkykky?entry=ttu"
               target="_blank"
               rel="noopener noreferrer"
             >
