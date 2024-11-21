@@ -29,8 +29,6 @@ export function ContactPage() {
     }))
   }
 
-  const addressLink = "https://www.google.com/maps?q=423+Mt+Edward+Rd,+Charlottetown,+PE+C1E+2A1,+Canada";
-
   return (
     <div className="contact-page">
       <h1>Contact Us</h1>
